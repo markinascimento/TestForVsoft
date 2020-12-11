@@ -1,0 +1,160 @@
+.containerMain{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.containerLogo{
+    display: flex;
+    background-color: #4EAE7B;
+    width: 35%;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.viewLogo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.textLogo{
+    padding: 15px;
+    font-size: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oneText{
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: #fff;
+    text-align: center
+}
+
+.paragraph{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 120px;
+    color: #fff;
+    text-align: center
+}
+
+.containerSelect{
+    display: flex;
+    background-color: #fff;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.viewProblem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 600px;
+    flex-direction: row;
+    margin-left: 65%;
+}
+
+.textHelp{
+    margin: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkHelp{
+    margin: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4EAE7B;
+}
+
+.welcome{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -370px;
+}
+
+.title{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleDice{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    color: #a9a9a9;
+}
+
+.viewSelectEst{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.viewSelect{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.viewSelect input{
+    margin-left: 60px;
+}
+
+.select{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.input{
+    height: 30px;
+    width: 270px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.btnLogin{
+    height: 30px;
+    width: 135px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:#4EAE7B;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btnLogin:hover{
+    background-color: #4EAE7B;
+    color: #fff;
+}
